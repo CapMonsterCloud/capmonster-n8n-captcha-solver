@@ -16,7 +16,7 @@ Easily integrate CapMonster Cloud into your n8n workflows to automatically bypas
 This node provides ready-to-use operations to solve the following challenges:
 - **reCAPTCHA** (v2, v2 Enterprise, v3, v3 Enterprise)
 - **Cloudflare Turnstile** (Token, Managed Challenge, Waiting Room bypass)
-- **hCaptcha** & **FunCaptcha**
+- ****FunCaptcha**
 - **GeeTest** (V3 and V4)
 - **Image-to-Text** (Standard image captchas)
 - **Complex image tasks** (Click and recognition)
