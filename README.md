@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://capmonster.cloud/en/?utm_source=github&utm_medium=readme&utm_campaign=n8n_repo">
-    <img src="https://raw.githubusercontent.com/CapMonsterCloud/capmonster-captcha-solver-docs/main/assets/capmonster_logo.png" alt="CapMonster Cloud Logo" width="320">
+    <img src="https://capmonster.cloud/static/images/logo.svg" alt="CapMonster Cloud" width="280">
   </a>
 </p>
 
@@ -20,7 +20,7 @@
 
 ---
 
-Easily integrate **CapMonster Cloud** into your n8n workflows to automatically solve and bypass complex protections like **reCAPTCHA v2/v3/Enterprise, Cloudflare Turnstile, DataDome, GeeTest, and hCaptcha** in your web scraping and workflow automation pipelines.
+Easily integrate **CapMonster Cloud** into your n8n workflows to automatically solve and bypass complex protections like **reCAPTCHA v2/v3/Enterprise, Cloudflare Turnstile, DataDome, and GeeTest** in your web scraping and workflow automation pipelines.
 
 **[👉 Get your Free API Key & Free Trial Balance on CapMonster Cloud](https://dash.capmonster.cloud/Account/SignUp?utm_source=github&utm_medium=referral&utm_campaign=n8n_repo_readme)**
 
