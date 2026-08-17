@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://capmonster.cloud/en/?utm_source=github&utm_medium=readme&utm_campaign=n8n_repo">
-    <img src="https://capmonster.cloud/static/images/logo.svg" alt="CapMonster Cloud" width="280">
+    <img src="https://img.shields.io/badge/CapMonster%20Cloud-AI%20Captcha%20Solver-00B2FF?style=for-the-badge&logo=cloud&logoColor=white" alt="CapMonster Cloud" height="40">
   </a>
 </p>
 
