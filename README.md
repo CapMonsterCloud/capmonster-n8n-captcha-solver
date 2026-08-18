@@ -1,7 +1,7 @@
 # n8n CAPTCHA Solver Node by CapMonster Cloud
 
 <p align="center">
-  <a href="https://capmonster.cloud/en/?utm_source=github&utm_medium=readme&utm_campaign=n8n_repo">
+  <a href="https://capmonster.cloud/en/?utm_source=github&utm_medium=referral&utm_campaign=n8n_repo_read">
     <img src="https://img.shields.io/badge/CapMonster%20Cloud-AI%20Captcha%20Solver-00B2FF?style=for-the-badge&logo=cloud&logoColor=white" alt="CapMonster Cloud" height="40">
   </a>
 </p>
@@ -22,7 +22,7 @@
 
 Easily integrate **CapMonster Cloud** into your n8n workflows to automatically solve and bypass complex protections like **reCAPTCHA v2/v3/Enterprise, Cloudflare Turnstile, DataDome, and GeeTest** in your web scraping and workflow automation pipelines.
 
-**[👉 Get your Free API Key & Free Trial Balance on CapMonster Cloud](https://dash.capmonster.cloud/Account/SignUp?utm_source=github&utm_medium=referral&utm_campaign=n8n_repo_readme)**
+**[👉 Get your Free API Key & Free Trial Balance on CapMonster Cloud](https://dash.capmonster.cloud/Account/SignUp?utm_source=github&utm_medium=referral&utm_campaign=n8n_repo_read)**
 
 ---
 
@@ -43,7 +43,7 @@ You can copy and paste this ready-to-use n8n workflow directly into your canvas:
       "name": "CapMonster Cloud",
       "type": "@zennolab_com/n8n-nodes-capmonstercloud.capMonsterCloud",
       "typeVersion": 1,
-      "position": [460, 300],
+      "position":,[300][460]
       "credentials": {
         "capMonsterCloudApi": {
           "id": "1",
@@ -80,7 +80,7 @@ npm install @zennolab_com/n8n-nodes-capmonstercloud
 
 1. In n8n, navigate to **Credentials > New Credential**.
 2. Search for **CapMonster Cloud API**.
-3. Paste your `Client Key` from your [CapMonster Cloud Dashboard](https://dash.capmonster.cloud/Account/SignUp?utm_source=github&utm_medium=referral&utm_campaign=n8n_repo_readme).
+3. Paste your `Client Key` from your [CapMonster Cloud Dashboard](https://dash.capmonster.cloud/Account/SignUp?utm_source=github&utm_medium=referral&utm_campaign=n8n_repo_read).
 4. Save credentials.
 
 ---
@@ -132,17 +132,17 @@ The node automatically handles polling, backoff retries, and token delivery dire
 
 - **Token Expiration:** CAPTCHA tokens typically expire in 120 seconds. Ensure your next HTTP Request executes immediately after the CapMonster node.
 - **Proxy Matching:** For Cloudflare Turnstile or DataDome, use residential proxies with the same IP/subnet that makes the initial page request.
-- **Custom JSON Payload:** If using custom JSON payloads, follow the official [CapMonster Task API Reference](https://docs.capmonster.cloud/docs/captchas/).
-- **Zero Balance:** Make sure your dashboard balance is positive. Grab free testing credits from your [Dashboard](https://dash.capmonster.cloud/?utm_source=github&utm_medium=readme&utm_campaign=n8n_repo).
+- **Custom JSON Payload:** If using custom JSON payloads, follow the official [CapMonster Task API Reference](https://docs.capmonster.cloud/docs/captchas/?utm_source=github&utm_medium=referral&utm_campaign=n8n_repo_read).
+- **Zero Balance:** Make sure your dashboard balance is positive. Grab free testing credits from your [Dashboard](https://dash.capmonster.cloud/?utm_source=github&utm_medium=referral&utm_campaign=n8n_repo_read).
 
 ---
 
 ## 📚 Documentation & Community
 
-- 📖 [Official CapMonster Cloud Documentation](https://docs.capmonster.cloud/)
-- 🎯 [Task API Reference & Payload Specs](https://docs.capmonster.cloud/docs/captchas/)
+- 📖 [Official CapMonster Cloud Documentation](https://docs.capmonster.cloud/docs/getting-start/?utm_source=github&utm_medium=referral&utm_campaign=n8n_repo_read)
+- 🎯 [Task API Reference & Payload Specs](https://docs.capmonster.cloud/docs/captchas/?utm_source=github&utm_medium=referral&utm_campaign=n8n_repo_read)
 - 🧩 [n8n Community Nodes Directory](https://docs.n8n.io/integrations/community-nodes/)
-- 💬 [CapMonster Community & Support](https://capmonster.cloud/en/?utm_source=github&utm_medium=readme&utm_campaign=n8n_repo#support)
+- 💬 [CapMonster Community & Support](https://capmonster.cloud/en/?utm_source=github&utm_medium=referral&utm_campaign=n8n_repo_read#support)
 
 ---
 
@@ -156,4 +156,4 @@ If you find this node helpful for your web scraping and automation workflows, pl
 
 ## 📄 License
 
-[MIT](LICENSE) © [CapMonster Cloud](https://capmonster.cloud/)
+[MIT](LICENSE) © [CapMonster Cloud](https://capmonster.cloud/en/?utm_source=github&utm_medium=referral&utm_campaign=n8n_repo_read)
