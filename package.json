@@ -1,58 +1,69 @@
 {
-	"name": "@zennolab_com/n8n-nodes-capmonstercloud",
-	"version": "0.1.0",
-	"publishConfig": {
-		"access": "public"
-	},
-	"description": "Automate CAPTCHA solving (reCAPTCHA, Cloudflare Turnstile, GeeTest, Image) with CapMonster Cloud API",
-	"author": {
-		"name": "ZennoLab",
-		"email": "support@zennolab.com"
-	},
-	"license": "MIT",
-	"homepage": "https://github.com/ZennoLab/n8n-capmonstercloud-node",
-	"keywords": [
-		"n8n-community-node-package",
-		"n8n",
-		"n8n-nodes",
-		"captcha",
-		"capmonster"
-	],
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/ZennoLab/n8n-capmonstercloud-node.git"
-	},
-	"scripts": {
-		"build": "n8n-node build",
-		"build:watch": "tsc --watch",
-		"dev": "n8n-node dev",
-		"lint": "n8n-node lint",
-		"lint:fix": "n8n-node lint --fix",
-		"release": "n8n-node release"
-	},
-	"files": [
-		"dist"
-	],
-	"n8n": {
-		"n8nNodesApiVersion": 1,
-		"strict": true,
-		"credentials": [
-			"dist/credentials/CapmonsterCloudApi.credentials.js"
-		],
-		"nodes": [
-			"dist/nodes/CapmonsterCloud/CapmonsterCloud.node.js"
-		],
-		"community": true
-	},
-	"devDependencies": {
-		"@n8n/node-cli": "*",
-		"@types/node": "^25.5.0",
-		"eslint": "9.32.0",
-		"prettier": "3.6.2",
-		"release-it": "^19.0.4",
-		"typescript": "5.9.2"
-	},
-	"peerDependencies": {
-		"n8n-workflow": "*"
-	}
+  "name": "@zennolab_com/n8n-nodes-capmonstercloud",
+  "version": "0.1.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Automate CAPTCHA solving (Cloudflare Turnstile, reCAPTCHA, GeeTest, DataDome, Image) with CapMonster Cloud API",
+  "author": {
+    "name": "CapMonster Cloud",
+    "email": "support@capmonster.cloud"
+  },
+  "license": "MIT",
+  "homepage": "https://capmonster.cloud/",
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n",
+    "n8n-nodes",
+    "captcha",
+    "captcha-solver",
+    "recaptcha",
+    "recaptcha-v2",
+    "recaptcha-v3",
+    "turnstile",
+    "cloudflare-turnstile",
+    "geetest",
+    "datadome",
+    "web-scraping",
+    "anti-bot",
+    "capmonster",
+    "capmonster-cloud"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CapMonsterCloud/capmonster-n8n-captcha-solver.git"
+  },
+  "scripts": {
+    "build": "n8n-node build",
+    "build:watch": "tsc --watch",
+    "dev": "n8n-node dev",
+    "lint": "n8n-node lint",
+    "lint:fix": "n8n-node lint --fix",
+    "release": "n8n-node release"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "strict": true,
+    "credentials": [
+      "dist/credentials/CapmonsterCloudApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/CapmonsterCloud/CapmonsterCloud.node.js"
+    ],
+    "community": true
+  },
+  "devDependencies": {
+    "@n8n/node-cli": "*",
+    "@types/node": "^25.5.0",
+    "eslint": "9.32.0",
+    "prettier": "3.6.2",
+    "release-it": "^19.0.4",
+    "typescript": "5.9.2"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
 }
