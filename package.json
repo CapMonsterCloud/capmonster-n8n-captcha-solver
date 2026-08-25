@@ -4,7 +4,7 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"description": "n8n node for solving captchas using CapMonster Cloud API",
+	"description": "Automate CAPTCHA solving (reCAPTCHA, Cloudflare Turnstile, GeeTest, Image) with CapMonster Cloud API,
 	"author": {
 		"name": "ZennoLab",
 		"email": "support@zennolab.com"
