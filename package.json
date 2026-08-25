@@ -4,7 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "description": "Automate CAPTCHA solving (Cloudflare Turnstile, reCAPTCHA, GeeTest, DataDome, Image) with CapMonster Cloud API",
+  "description": "Automate CAPTCHA solving (Cloudflare Turnstile, reCAPTCHA, GeeTest, Alibaba, DataDome, Image) with CapMonster Cloud API",
   "author": {
     "name": "CapMonster Cloud",
     "email": "support@capmonster.cloud"
@@ -23,6 +23,8 @@
     "turnstile",
     "cloudflare-turnstile",
     "geetest",
+    "alibaba-captcha",
+    "alibaba",
     "datadome",
     "web-scraping",
     "anti-bot",
