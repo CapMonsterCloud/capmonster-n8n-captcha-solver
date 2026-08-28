@@ -149,7 +149,6 @@ The node automatically handles polling, backoff retries, and token delivery dire
 - [Python](https://github.com/CapMonsterCloud/capmonster-python-captcha-solver)
 - [.NET](https://github.com/CapMonsterCloud/capmonster-dotnet-captcha-solver)
 - [Node.js](https://github.com/CapMonsterCloud/capmonster-nodejs-captcha-solver)
-- [n8n](https://github.com/CapMonsterCloud/capmonster-n8n-captcha-solver)
 - [API Docs](https://github.com/CapMonsterCloud/capmonster-captcha-solver-docs)
 
 ---
