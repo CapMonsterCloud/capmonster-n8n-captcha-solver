@@ -144,6 +144,8 @@ The node automatically handles polling, backoff retries, and token delivery dire
 - 🧩 [n8n Community Nodes Directory](https://docs.n8n.io/integrations/community-nodes/)
 - 💬 [CapMonster Community & Support](https://capmonster.cloud/en/?utm_source=github&utm_medium=referral&utm_campaign=n8n_repo_read#support)
 
+## Other official SDKs\n- [Python](https://github.com/CapMonsterCloud/capmonster-python-captcha-solver)\n- [.NET](https://github.com/CapMonsterCloud/capmonster-dotnet-captcha-solver)\n- [Node.js](https://github.com/CapMonsterCloud/capmonster-nodejs-captcha-solver)\n- [n8n](https://github.com/CapMonsterCloud/capmonster-n8n-captcha-solver)\n- [API Docs](https://github.com/CapMonsterCloud/capmonster-captcha-solver-docs)
+
 ---
 
 ## 📄 License
