@@ -31,9 +31,6 @@ jobs:
       - name: Build Node
         run: npm run build
 
-      - name: Release n8n Node
-        run: npm run release
-
       - name: Publish to npm
         run: npm publish --access public --provenance
         env:
