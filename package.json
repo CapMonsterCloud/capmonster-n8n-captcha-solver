@@ -1,22 +1,28 @@
 {
   "name": "@zennolab_com/n8n-nodes-capmonstercloud",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publishConfig": {
     "access": "public"
   },
-  "description": "Automate CAPTCHA solving (Cloudflare Turnstile, reCAPTCHA, GeeTest, Alibaba, DataDome, Image) with CapMonster Cloud API",
+  "description": "CapMonster Cloud n8n node: captcha solver & captcha bypass for reCAPTCHA, Cloudflare Turnstile, GeeTest, DataDome and more. A 2captcha and capsolver alternative for n8n workflows.",
   "author": {
     "name": "CapMonster Cloud",
-    "email": "support@capmonster.cloud"
+    "email": "support@capmonster.cloud",
+    "url": "https://capmonster.cloud/en/"
   },
   "license": "MIT",
-  "homepage": "https://capmonster.cloud/",
+  "homepage": "https://github.com/CapMonsterCloud/capmonster-n8n-captcha-solver#readme",
+  "bugs": {
+    "url": "https://github.com/CapMonsterCloud/capmonster-n8n-captcha-solver/issues"
+  },
   "keywords": [
     "n8n-community-node-package",
     "n8n",
     "n8n-nodes",
     "captcha",
     "captcha-solver",
+    "captcha-bypass",
+    "anticaptcha",
     "recaptcha",
     "recaptcha-v2",
     "recaptcha-v3",
@@ -28,8 +34,12 @@
     "datadome",
     "web-scraping",
     "anti-bot",
+    "workflow-automation",
+    "no-code",
     "capmonster",
-    "capmonster-cloud"
+    "capmonster-cloud",
+    "2captcha-alternative",
+    "capsolver-alternative"
   ],
   "repository": {
     "type": "git",
